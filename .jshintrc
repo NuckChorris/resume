@@ -1,0 +1,20 @@
+{
+	"bitwise": true,
+	"camelcase": true,
+	"curly": true,
+	"eqeqeq": true,
+	"forin": true,
+	"immed": true,
+	"latedef": true,
+	"newcap": true,
+	"noarg": true,
+	"nonew": true,
+	"quotmark": true,
+	"unused": true,
+	"strict": true,
+	"maxlen": 100,
+	"esnext": true,
+	"globalstrict": true,
+	"maxerr": 20,
+	"browser": true
+}

@@ -1,0 +1,16 @@
+{
+  "name": "resume",
+  "authors": [
+    "Peter Lejeck <code@plejeck.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "zepto": "~1.1.4",
+    "regenerator": "facebook/regenerator#~0.6.5"
+  }
+}
