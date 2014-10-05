@@ -13,11 +13,9 @@ class Template {
 				}
 			}
 		}
-		console.log(vars);
 		this._vars = vars;
 	}
 	execute (env) {
-		console.log('Executing template');
 		for(let key in this._vars) {
 			if (this._vars.hasOwnProperty(key)) {
 				let result = this._vars[key].replace(Template.REGEX, (trash, str) => {
