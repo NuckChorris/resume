@@ -1,0 +1,12 @@
+{
+	"company": {
+		"name": "Example, Inc.",
+		"url": "http://example.com/"
+	},
+	"job": {
+		"position": "a Front-End Engineer",
+		"plus": ["frontend"],
+		"minus": ["backend"]
+	},
+	"email": "hireme+example@plejeck.com"
+}

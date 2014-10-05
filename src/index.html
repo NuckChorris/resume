@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title data-var="content=$" data-content="Peter Lejeck's Resumé for
+		${company.name}">Peter Lejeck's Resumé</title>
+</head>
+<body>
+	<noscript>
+		<p><em>I'm so sorry, but could you enable JavaScript for me?</em> I use JS
+			to target this to your specific job posting and save you time.</p>
+		<p>Shown below is my untargeted resume &emdash; it's a bit long, since it
+			covers all possible roles.</p>
+	</noscript>
+
+	<h1>
+		Hi <span data-var="content=company.name">Potential Employer, Inc.</span>
+	</h1>
+
+	<section id="who-am-i">
+		<p>I saw you guys needed <span data-var="content=job.position">
+			somebody</span>.</p>
+		<p>I'm <a href="#who">Peter Lejeck</a>. I make
+			<a href="https://github.com/NuckChorris/">cool stuff</a>.  And I'd like
+			to make even cooler stuff with <a data-var="href=company.url">you guys
+			</a>.
+		</p>
+	</section>
+
+	<section id="why-hire-me">
+		<h1>Why should you hire me?</h1>
+		<ul>
+			<li data-tags="default,node,js,rails,backend">I have lots of experience
+				working with <em class="tech">Node.js</em> and
+				<em class="tech">Rails</em></li>
+			<li data-tags="db,nosql,mongo,redis,couch">I worked a lot with
+				<em class="tech">Mongo</em> when I was 18. I also used
+				<em class="tech">Redis</em> and <em class="tech">CouchDB</em> a bit.
+				</li>
+			<li data-tags="default,c,ruby,js,polyglot">I can switch from C to Ruby
+				to JS without breaking a sweat</li>
+			<li data-tags="default,sysadmin">I'm a skilled (and almost certified!)
+				<em class="tech">linux</em> administrator</li>
+			<li data-tags="default,backend,db">I can design db schemas which last a
+				lifetime</li>
+			<li data-tags="db">I know SQL (at least well enough to write
+				<a href="https://github.com/NuckChorris/hummingbird/blob/title-table/db/migrate/20140806062842_move_anime_titles_to_table.rb">
+				this migration</a>), but I prefer an ORM</li>
+			<li data-tags="default,frontend,css">I've made CSS cry before — in all
+				browsers</li>
+			<li data-tags="frontend,js,embers">Against all odds, I learned Ember.js
+				</li>
+			<li data-tags="frontend,js,future">I already know ES6 quite well; in
+				fact, this resumé uses it</li>
+			<li data-tags="polyglot">I can administrate a server, build an API,
+				design a site, mockup a page, and I can learn just about anything
+				else if you give me a few days</li>
+			<li data-tags="default,language">I'm obviously fluent in English, but
+				I'm also learning both Dutch and Japanese.</li>
+			<li data-tags="default,coolguy">I'm a pretty cool guy</li>
+			<li data-tags="default,fuwafuwa">I didn't waste your time with a fluffy
+				resumé</li>
+		</ul>
+	</section>
+
+	<section id="call-me-maybe">
+		<h1>Have your people call my people</h1>
+		<dl class="contact-list">
+			<dt>Phone</dt>
+			<dd><a href="tel:12093801981">+1 (209) 380-1981</a></dd>
+			<dt>Skype</dt>
+			<dd><a href="skype:plejeck">plejeck</a></dd>
+			<dt>Email</dt>
+			<dd><a data-var="content=email,href=$" data-href="mailto:${email}"
+				href="mailto:hireme@plejeck.com">hireme@plejeck.com</a></dd>
+		</dl>
+	</section>
+	<section id="side-projects">
+		<h1>Not convinced? Here's some cool stuff I'm working on</h1>
+		<dl>
+			<dt>Lurn-Kana</dt>
+			<dd>A small mobile-first web app to help me learn the Japanese
+				alphabets (Hiragana and Katakana), using React.js, gulp, esnext,
+				es6-modules, and LESS</dd>
+			<dt>Hummingbird.me</dt>
+			<dd>A fairly sizeable anime community, built with Rails, Ember.js,
+				Redis, and Postgres</dd>
+			<dt>libopkeychain</dt>
+			<dd>A cross-platform C implementation of the 1password keychain format,
+				using CMake, OpenSSL, and a whole lot of crying myself to sleep</dd>
+			<dt>Nectar</dt>
+			<dd>A GTK3 desktop application for Hummingbird.me, made with Vala and 
+				sugar and spice and everything nice</dd>
+		</dl>
+	</section>
+	<script src="js/vendor/regenerator.js"></script>
+	<script>wrapGenerator = regeneratorRuntime;</script>
+	<script src="js/vendor/zepto.js"></script>
+	<script src="js/template.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
